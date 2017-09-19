@@ -1,0 +1,54 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\Bret>cd desktop
+
+C:\Users\Bret\Desktop>md GitHubAssignment
+
+C:\Users\Bret\Desktop>cd githubassignment
+
+C:\Users\Bret\Desktop\GitHubAssignment>git init
+Initialized empty Git repository in C:/Users/Bret/Desktop/GitHubAssignment/.git/
+
+
+C:\Users\Bret\Desktop\GitHubAssignment>copu nul readme.md
+'copu' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Bret\Desktop\GitHubAssignment>copy nul readme.md
+        1 file(s) copied.
+
+C:\Users\Bret\Desktop\GitHubAssignment>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Bret\Desktop\GitHubAssignment>git add readme.md
+
+C:\Users\Bret\Desktop\GitHubAssignment>git commit -m "first commit"
+[master (root-commit) 33a1672] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 readme.md
+
+C:\Users\Bret\Desktop\GitHubAssignment>git remote add origin https://github.com/
+BretMeerkat/GitHubRepoAssignment.git
+
+C:\Users\Bret\Desktop\GitHubAssignment>git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 219 bytes | 219.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/BretMeerkat/GitHubRepoAssignment.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+C:\Users\Bret\Desktop\GitHubAssignment>copy nul GitHubRepoAssignment.txt
+        1 file(s) copied.
+
+C:\Users\Bret\Desktop\GitHubAssignment>
